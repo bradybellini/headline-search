@@ -30,7 +30,7 @@ def main():
             news.close()
 # print(f.entries[0]['title'])
 #TODO check if link to article works if not try guid if not dont put it in database
-#change date_added to be the same format as published date
+#change date_added to be the same format as published date also change date for published to only be numbers for sorting purposes. it is not sorting right in database
 #check for an id another way. Some feeds do not have a guid i.e. tech hive, pcworld feed, macworld, metacritic, sports 24
 if __name__ == "__main__":
     main()

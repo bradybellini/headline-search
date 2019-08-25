@@ -1,0 +1,486 @@
+{
+    "gaming": [
+        {
+            "name": "Gamasutra News",
+            "website_url": "http://www.gamasutra.com/newswire",
+            "feed": "http://feeds.feedburner.com/GamasutraNews"
+        },
+        {
+            "name": "TouchArcade",
+            "website_url": "https://toucharcade.com",
+            "feed": "https://toucharcade.com/feed"
+        },
+        {
+            "name": "gamesradar news",
+            "website_url": "http://www.gamesradar.com/all-platforms/news/rss/",
+            "feed": "https://www.gamesradar.com/all-platforms/news/rss/"
+        },
+        {
+            "name": "Destructoid",
+            "website_url": "https://www.destructoid.com/?mode=atom",
+            "feed": "https://www.destructoid.com/?mode=atom"
+        },
+        {
+            "name": "GameRevolution",
+            "website_url": "https://www.gamerevolution.com",
+            "feed": "https://www.gamerevolution.com/feed"
+        },
+        {
+            "name": "Articles RSS feed - Indie DB",
+            "website_url": "https://www.indiedb.com/articles",
+            "feed": "https://rss.indiedb.com/articles/feed/rss.xml"
+        },
+        {
+            "name": "Nintendo Life | Latest Updates",
+            "website_url": "https://www.nintendolife.com/feeds/latest",
+            "feed": "https://www.nintendolife.com/feeds/latest"
+        },
+        {
+            "name": "Latest Articles | Pocket Gamer",
+            "website_url": "https://www.pocketgamer.com/",
+            "feed": "https://www.pocketgamer.com/rss/"
+        },
+        {
+            "name": "CNET Gaming",
+            "website_url": "https://www.cnet.com/#ftag=CADa872701",
+            "feed": "https://www.cnet.com/rss/gaming/"
+        },
+        {
+            "name": "GameSpot - Game Reviews",
+            "website_url": "https://www.gamespot.com/feeds/reviews/",
+            "feed": "https://www.gamespot.com/feeds/reviews"
+        },
+        {
+            "name": "VGChartz",
+            "website_url": "http://www.vgchartz.com",
+            "feed": "http://feeds.feedburner.com/VGChartz?format=xml"
+        },
+        {
+            "name": "Engadget RSS Feed",
+            "website_url": "https://www.engadget.com/tag/@gaming/rss.xml",
+            "feed": "https://www.engadget.com/tag/@gaming/rss.xml"
+        },
+        {
+            "name": "Eurogamer.net",
+            "website_url": "https://www.eurogamer.net/",
+            "feed": "https://www.eurogamer.net/?format=rss"
+        },
+        {
+            "name": "GamesIndustry.biz",
+            "website_url": "https://www.gamesindustry.biz",
+            "feed": "https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss"
+        },
+        {
+            "name": "Game Informer News",
+            "website_url": "https://www.gameinformer.com/news.xml",
+            "feed": "https://www.gameinformer.com/news.xml"
+        },
+        {
+            "name": "Twinfinite",
+            "website_url": "https://twinfinite.net",
+            "feed": "https://twinfinite.net/feed/"
+        },
+        {
+            "name": "PC Gamer",
+            "website_url": "http://www.pcgamer.com/rss/?feed=rss",
+            "feed": "https://www.pcgamer.com/rss"
+        },
+        {
+            "name": "Shacknews",
+            "website_url": "https://www.shacknews.com/",
+            "feed": "https://www.shacknews.com/feed/rss"
+        },
+        {
+            "name": "Gaming & Culture \u2013 Ars Technica",
+            "website_url": "https://arstechnica.com",
+            "feed": "http://feeds.arstechnica.com/arstechnica/gaming"
+        },
+        {
+            "name": "Escapist Magazine",
+            "website_url": "https://www.escapistmagazine.com/v2",
+            "feed": "https://www.escapistmagazine.com/v2/?feed=rss"
+        },
+        {
+            "name": "GameSpot - Game News",
+            "website_url": "https://www.gamespot.com/feeds/game-news/",
+            "feed": "https://www.gamespot.com/feeds/game-news"
+        },
+        {
+            "name": "VICE US - undefined US",
+            "website_url": "",
+            "feed": "https://waypoint.vice.com/en_us/rss"
+        },
+        {
+            "name": "Search Results for \u201c\u201d \u2013 Rock Paper Shotgun \u2013 PC Game Reviews, Previews, Subjectivity",
+            "website_url": "https://www.rockpapershotgun.com",
+            "feed": "https://www.rockpapershotgun.com/feed/"
+        },
+        {
+            "name": "Gaming \u2013 TechCrunch",
+            "website_url": "https://techcrunch.com",
+            "feed": "http://feeds.feedburner.com/techcrunch/gaming"
+        },
+        {
+            "name": "VG247",
+            "website_url": "https://www.vg247.com",
+            "feed": "https://www.vg247.com/feed/"
+        },
+        {
+            "name": "Kotaku",
+            "website_url": "https://kotaku.com",
+            "feed": "https://kotaku.com/rss"
+        },
+        {
+            "name": "Game Informer Reviews",
+            "website_url": "https://www.gameinformer.com/reviews.xml",
+            "feed": "https://www.gameinformer.com/reviews.xml"
+        },
+        {
+            "name": "USgamer.net",
+            "website_url": "https://www.usgamer.net",
+            "feed": "https://www.usgamer.net/rss"
+        },
+        {
+            "name": "DualShockers",
+            "website_url": "https://www.dualshockers.com",
+            "feed": "https://www.dualshockers.com/feed/"
+        }
+    ],
+    "general": [
+        {
+            "name": "World",
+            "website_url": "http://www.washingtonpost.com/pb/world/",
+            "feed": "http://feeds.washingtonpost.com/rss/world"
+        },
+        {
+            "name": "Yahoo News - Latest News & Headlines",
+            "website_url": "https://www.yahoo.com/news/world",
+            "feed": "https://www.yahoo.com/news/rss/world"
+        },
+        {
+            "name": "Articles | Mail Online",
+            "website_url": "https://www.dailymail.co.uk?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+            "feed": "http://www.dailymail.co.uk/articles.rss"
+        },
+        {
+            "name": "TIME",
+            "website_url": "https://time.com",
+            "feed": "http://feeds.feedburner.com/time/topstories"
+        },
+        {
+            "name": "GANNETT Syndication Service",
+            "website_url": "http://api-internal.usatoday.com.akadns.net",
+            "feed": "http://rssfeeds.usatoday.com/usatoday-newstopstories"
+        },
+        {
+            "name": "CNN.com - RSS Channel - US",
+            "website_url": "https://www.cnn.com/us/index.html",
+            "feed": "http://rss.cnn.com/rss/edition_us.rss"
+        },
+        {
+            "name": "Yahoo News - Latest News & Headlines",
+            "website_url": "https://www.yahoo.com/news",
+            "feed": "https://www.yahoo.com/news/rss/"
+        },
+        {
+            "name": "NYT > Top Stories",
+            "website_url": "https://www.nytimes.com?emc=rss&partner=rss",
+            "feed": "http://feeds.nytimes.com/nyt/rss/HomePage"
+        },
+        {
+            "name": "HuffPost - Breaking News, U.S. and World News",
+            "website_url": "https://www.huffpost.com/",
+            "feed": "https://www.huffingtonpost.com/section/front-page/feed"
+        },
+        {
+            "name": "ABC News: Top Stories",
+            "website_url": "http://abcnews.go.com/",
+            "feed": "http://abcnews.go.com/abcnews/topstories"
+        },
+        {
+            "name": "BBC News - US & Canada",
+            "website_url": "https://www.bbc.co.uk/news/",
+            "feed": "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/americas/rss.xml"
+        },
+        {
+            "name": "Vox -  All",
+            "website_url": "https://www.vox.com/",
+            "feed": "https://www.vox.com/rss/index.xml"
+        },
+        {
+            "name": "CNN.com - RSS Channel - World",
+            "website_url": "https://www.cnn.com/world/index.html",
+            "feed": "http://rss.cnn.com/rss/edition_world.rss"
+        },
+        {
+            "name": "BBC News - World",
+            "website_url": "https://www.bbc.co.uk/news/",
+            "feed": "http://feeds.bbci.co.uk/news/world/rss.xml"
+        },
+        {
+            "name": "Everything",
+            "website_url": "https://www.newyorker.com/everything",
+            "feed": "http://www.newyorker.com/services/rss/feeds/everything.xml"
+        },
+        {
+            "name": "Salon.com",
+            "website_url": "https://www.salon.com",
+            "feed": "https://www.salon.com/feed/"
+        },
+        {
+            "name": "World",
+            "website_url": "http://www.washingtonpost.com/pb/world/",
+            "feed": "http://feeds.washingtonpost.com/rss/rss_blogpost"
+        },
+        {
+            "name": "CNN.com - RSS Channel - HP Hero",
+            "website_url": "https://www.cnn.com/index.html",
+            "feed": "http://rss.cnn.com/rss/cnn_topstories.rss"
+        },
+        {
+            "name": "Top stories - Google News",
+            "website_url": "https://news.google.com/?hl=en-US&gl=US&ceid=US:en",
+            "feed": "https://news.google.com/rss/"
+        },
+        {
+            "name": "New York Post",
+            "website_url": "https://nypost.com",
+            "feed": "https://nypost.com/feed/"
+        },
+        {
+            "name": "US News - The latest headlines from the US | Sky News",
+            "website_url": "http://news.sky.com/us",
+            "feed": "http://feeds.skynews.com/feeds/rss/us.xml"
+        },
+        {
+            "name": "News : NPR",
+            "website_url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+            "feed": "http://www.npr.org/rss/rss.php?id=1001"
+        },
+        {
+            "name": "Reuters: World News",
+            "website_url": "https://www.reuters.com",
+            "feed": "http://feeds.reuters.com/Reuters/worldNews"
+        },
+        {
+            "name": "Reuters: U.S.",
+            "website_url": "https://www.reuters.com",
+            "feed": "http://feeds.reuters.com/Reuters/domesticNews"
+        }
+    ],
+    "technology": [
+        {
+            "name": "Technology : NPR",
+            "website_url": "https://www.npr.org/templates/story/story.php?storyId=1019",
+            "feed": "http://www.npr.org/rss/rss.php?id=1019"
+        },
+        {
+            "name": "IEEE Spectrum Tech Talk",
+            "website_url": "https://spectrum.ieee.org",
+            "feed": "https://spectrum.ieee.org/rss/blog/tech-talk/fulltext"
+        },
+        {
+            "name": "VentureBeat",
+            "website_url": "https://venturebeat.com",
+            "feed": "https://venturebeat.com/feed/"
+        },
+        {
+            "name": "CNET News",
+            "website_url": "https://www.cnet.com/#ftag=CAD590a51e",
+            "feed": "http://www.cnet.com/rss/news"
+        },
+        {
+            "name": "Gizmodo",
+            "website_url": "https://gizmodo.com",
+            "feed": "https://gizmodo.com/rss"
+        },
+        {
+            "name": "Macworld",
+            "website_url": "https://www.macworld.com",
+            "feed": "http://rss.macworld.com/macworld/feeds/main"
+        },
+        {
+            "name": "Feed: All Latest",
+            "website_url": "https://www.wired.com/latest",
+            "feed": "https://www.wired.com/feed"
+        },
+        {
+            "name": "Engadget RSS Feed",
+            "website_url": "https://www.engadget.com/rss-full.xml",
+            "feed": "http://www.engadget.com/rss-full.xml"
+        },
+        {
+            "name": "Latest News Articles from Techworld",
+            "website_url": "https://www.techworld.com/news/",
+            "feed": "http://www.techworld.com/news/rss"
+        },
+        {
+            "name": "Lifehacker",
+            "website_url": "https://lifehacker.com",
+            "feed": "https://lifehacker.com/rss"
+        },
+        {
+            "name": "NYT > Technology",
+            "website_url": "https://www.nytimes.com/section/technology?emc=rss&partner=rss",
+            "feed": "http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+        },
+        {
+            "name": "Mashable",
+            "website_url": "https://mashable.com/",
+            "feed": "http://mashable.com/rss"
+        },
+        {
+            "name": "PCWorld",
+            "website_url": "https://www.pcworld.com",
+            "feed": "http://feeds.pcworld.com/pcworld/latestnews"
+        },
+        {
+            "name": "Latest News Articles from Techworld",
+            "website_url": "https://www.techworld.com/news/",
+            "feed": "https://www.techworld.com/news/rss"
+        },
+        {
+            "name": "TechCrunch",
+            "website_url": "https://techcrunch.com",
+            "feed": "https://techcrunch.com/rss"
+        }
+    ],
+    "politics": [
+        {
+            "name": "WSJ.com: World News",
+            "website_url": "http://online.wsj.com/page/2_0006.html",
+            "feed": "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+        },
+        {
+            "name": "Politics",
+            "website_url": "https://www.politico.com/news/politics",
+            "feed": "https://www.politico.com/rss/politics.xml"
+        },
+        {
+            "name": "CNN.com - RSS Channel - Politics",
+            "website_url": "https://www.cnn.com/politics/index.html",
+            "feed": "http://rss.cnn.com/rss/cnn_allpolitics.rss"
+        },
+        {
+            "name": "Article \u2013 The Nation",
+            "website_url": "https://www.thenation.com",
+            "feed": "https://www.thenation.com/feed/?post_type=article"
+        },
+        {
+            "name": "Slate Magazine",
+            "website_url": "https://slate.com/",
+            "feed": "http://www.slate.com/articles/news_and_politics/politics.teaser.all.10.rss/"
+        },
+        {
+            "name": "msnbc.com Latest Headlines",
+            "website_url": "http://www.msnbc.com/",
+            "feed": "http://www.msnbc.com/feeds/latest"
+        },
+        {
+            "name": "Reuters: Politics",
+            "website_url": "https://www.reuters.com",
+            "feed": "http://feeds.reuters.com/Reuters/PoliticsNews"
+        },
+        {
+            "name": "USATODAY - On Politics",
+            "website_url": "http://www.usatoday.com",
+            "feed": "http://rssfeeds.usatoday.com/TP-OnPolitics"
+        }
+    ],
+    "movies": [
+        {
+            "name": "Movies : NPR",
+            "website_url": "https://www.npr.org/templates/story/story.php?storyId=1045",
+            "feed": "https://www.npr.org/rss/rss.php?id=1045"
+        },
+        {
+            "name": "Latest Movie Metascores on Metacritic",
+            "website_url": "https://www.metacritic.com",
+            "feed": "http://www.metacritic.com/rss/movies"
+        },
+        {
+            "name": "All Content",
+            "website_url": "https://www.rogerebert.com",
+            "feed": "https://www.rogerebert.com/feed"
+        },
+        {
+            "name": "New Movies",
+            "website_url": "http://www.fandango.com/default.aspx?wssaffid=11840&wssac=123",
+            "feed": "https://www.fandango.com/rss/newmovies.rss"
+        },
+        {
+            "name": "Movies.com | Movie News",
+            "website_url": "http://www.movies.com/movie-news/",
+            "feed": "http://www.movies.com/rss-feeds/movie-news-rss"
+        }
+    ],
+    "sports": [
+        {
+            "name": "NYT > Sports",
+            "website_url": "https://www.nytimes.com/section/sports?emc=rss&partner=rss",
+            "feed": "http://feeds1.nytimes.com/nyt/rss/Sports"
+        },
+        {
+            "name": "FOX Sports Digital",
+            "website_url": "http://api.foxsports.com/v1/rss",
+            "feed": "https://api.foxsports.com/v1/rss?partnerKey=zBaFxRyGKCfxBagJG9b8pqLyndmvo7UU"
+        },
+        {
+            "name": "talkSPORT",
+            "website_url": "https://talksport.com",
+            "feed": "https://talksport.com/rss/sports-news/all/feed"
+        },
+        {
+            "name": "BBC Sport - Sport",
+            "website_url": "http://www.bbc.co.uk/sport/",
+            "feed": "http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml"
+        },
+        {
+            "name": "CBSSports.com Headlines",
+            "website_url": "https://www.cbssports.com",
+            "feed": "https://rss.cbssports.com/rss/headlines/"
+        },
+        {
+            "name": "Sport Top Stories",
+            "website_url": "https://www.sport24.co.za/",
+            "feed": "http://feeds.sport24.co.za/articles/Sport/Featured/TopStories/rss"
+        },
+        {
+            "name": "Yahoo News - Latest News & Headlines",
+            "website_url": "https://www.yahoo.com/news/tagged/sports",
+            "feed": "https://www.yahoo.com/news/rss/sports"
+        },
+        {
+            "name": "www.espn.com - TOP",
+            "website_url": "http://www.espn.com",
+            "feed": "http://www.espn.com/espn/rss/news"
+        },
+        {
+            "name": "Latest News",
+            "website_url": "https://www.si.com/rss/si_topstories.rss",
+            "feed": "http://www.si.com/rss/si_topstories.rss"
+        }
+    ],
+    "entertainment": [
+        {
+            "name": "E! Online (US) - Top Stories",
+            "website_url": "https://www.eonline.com/",
+            "feed": "http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml"
+        },
+        {
+            "name": "InStyle",
+            "website_url": "https://www.instyle.com/feeds/all/ins.rss/10",
+            "feed": "http://www.instyle.com/feeds/all/ins.rss"
+        },
+        {
+            "name": "Reuters: Entertainment News",
+            "website_url": "https://www.reuters.com",
+            "feed": "http://feeds.reuters.com/reuters/entertainment"
+        },
+        {
+            "name": "Arts & Life : NPR",
+            "website_url": "https://www.npr.org/templates/story/story.php?storyId=1008",
+            "feed": "https://www.npr.org/rss/rss.php?id=1008"
+        }
+    ]
+}

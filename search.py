@@ -2,10 +2,15 @@ import feedparser
 import sqlite3
 import datetime
 import time
-from feeds import *
+from feeds import all_feeds
+
+
+
+
+
 
 def get_entry():
-    for feed in movies_feeds:
+    for feed in all_feeds:
         f = feedparser.parse(feed)
         for entry in f.entries:
             mandatory_elements(entry)

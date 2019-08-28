@@ -63,7 +63,6 @@ def insert_data(title, link, author, date_published, date_added, guid):
     try:
         cursor.execute(sql,val)
     except:
-        print('error in instert_data')
         pass
     news.commit()
     cursor.close()

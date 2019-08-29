@@ -1,8 +1,5 @@
 import feedparser
-import requests
-import json
-import time
-from feeds import *
+import nltk
 
 # game_feeds = ['https://kotaku.com/rss', 'https://www.usgamer.net/rss']
 # general_feeds = ["https://twinfinite.net/feed/", "https://www.cnet.com/rss/gaming/"]
@@ -76,6 +73,7 @@ from feeds import *
 #     print(name['name'])
 
 
-f = feedparser.parse("https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss")
-time_1 = time.mktime(f.entries[2].published_parsed)
-print(time.time())
+f = feedparser.parse("https://kotaku.com/rss")
+entry_title = f.entries[3].title
+nouns = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(entry_title)) if pos[0] == 'N']
+print(nouns)

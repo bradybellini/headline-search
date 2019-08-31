@@ -3,6 +3,7 @@ import sqlite3
 import datetime
 import time
 import nltk
+from nltk.corpus import stopwords
 from feeds import game_feeds
 
 
@@ -15,56 +16,74 @@ def get_entry():
         f = feedparser.parse(feed)
         for entry in f.entries:
             mandatory_elements(entry)
-    return feed
+
 
 
 def mandatory_elements(entry):
     try:
         if not 'id' in entry:
             guid = entry.link + entry.author
-            parse_entry(entry, guid)
+            insert_data(entry=entry, guid=guid)
         elif not 'published' in entry:
             pass
         else:
             guid = entry.guid
-            parse_entry(entry, guid)
+            insert_data(entry=entry, guid=guid)
     except:
         try:
             if not 'id' in entry or not 'published' in entry:
                 pass
             else:
                 guid = entry.guid
-                parse_entry(entry, guid)
+                insert_data(entry=entry, guid=guid)
         except:
             pass
 
 
-def parse_entry(entry, guid):
-    author = entry.author if 'author' in entry else 'No author provided'
-    date_published = date_format(entry)
-    title = entry.title
-    date_added = time.time()
-    link = entry.link
-    insert_data(title, link, author, date_published, date_added, guid)
+# def parse_entry(entry, guid):
+#     insert_data(author=entry.author if 'author' in entry else 'No author provided')
+#     title = entry.title
+#     link = entry.link
+#     insert_data(title=title, link=link, guid=guid)
 
 
 def date_format(entry):
     try:
         published = time.mktime(entry.published_parsed)
-        return published
+        insert_data(date_published=published)
     except:
+        print('error in date_format')
         pass
 
+def get_tags(entry):
+    try:
+        tags = entry.tag['term']
+        insert_data(tags=tags)
+    except:
+        stop_words = set(stopwords.words('english')) 
+        all_nouns = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(entry.title)) if pos[0] == 'N']
+        tags = []
+        for w in all_nouns: 
+            if w.lower() not in stop_words: 
+                tags.append(w) 
+        tags = ', '.join(tags)
+        insert_data(tags=tags)
+        print('error in tags')
+    return tags
 
-def insert_data(title, link, author, date_published, date_added, guid):
+# title, link, author, **tags, date_published, date_added, guid
+
+def insert_data(**kwargs):
+    author = kwargs.get('entry').author if 'author' in kwargs.get('entry') else 'No author provided'
     game_news = sqlite3.connect('game_news.db')
     cursor = game_news.cursor()
-    sql = (f"INSERT INTO news(title, link, author, date_published, date_added, guid) VALUES(?,?,?,?,?,?)")
-    val = (title, link, author, date_published, date_added, guid)
+    sql = (f"INSERT INTO news(title, link, author, tags, date_published, date_added, guid) VALUES(?,?,?,?,?,?,?)")
+    val = (kwargs.get('entry').title, kwargs.get('entry').link, author, kwargs.get('tags'), kwargs.get('date_published'), time.time(), kwargs.get('guid'))
     try:
         cursor.execute(sql,val)
     except:
         pass
+    print('error in insert_data')
     game_news.commit()
     cursor.close()
     game_news.close()
@@ -82,7 +101,6 @@ if __name__ == "__main__":
 #think about parsing summaries, descriptions for nouns for trending
 #add better search for discord bot
 #think about adding more tables for each category and test speeds for searching.
-#add tags if they exists and category the article is in
 #switch to using json doc with all feeds and site
 #add source to result, i.e. kotaku.com is kotaku cnn.com is cnn
 

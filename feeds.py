@@ -1,8 +1,8 @@
 game_feeds = {
+"https://kotaku.com/rss",
 "https://www.pcgamer.com/rss",
 "https://www.gameinformer.com/news.xml",
 "https://www.gameinformer.com/reviews.xml",
-"https://kotaku.com/rss",
 "https://www.pcgamer.com/rss",
 "https://www.gamesradar.com/all-platforms/news/rss/",
 "https://www.eurogamer.net/?format=rss",

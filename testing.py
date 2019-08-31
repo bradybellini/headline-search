@@ -1,6 +1,7 @@
 import feedparser
 import nltk
-
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize 
 # game_feeds = ['https://kotaku.com/rss', 'https://www.usgamer.net/rss']
 # general_feeds = ["https://twinfinite.net/feed/", "https://www.cnet.com/rss/gaming/"]
 # r = requests.get('https://kotaku.com/rss')
@@ -72,8 +73,31 @@ import nltk
 # for name in f['gaming']:
 #     print(name['name'])
 
-
+# stop_words = set(stopwords.words('english')) 
 f = feedparser.parse("https://kotaku.com/rss")
-entry_title = f.entries[3].title
-nouns = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(entry_title)) if pos[0] == 'N']
-print(nouns)
+# entry_title = f.entries[2].title
+# tags = f.entries[2].tags[1]['term']
+# print(tags)
+# word_tokens = word_tokenize(entry_title) 
+# filtered_sentence = [w for w in word_tokens if not w in stop_words] 
+# filtered_sentence = [] 
+  
+# for w in word_tokens: 
+#     if w.lower() not in stop_words: 
+#         filtered_sentence.append(w) 
+  
+
+# all_nouns = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(entry_title)) if pos[0] == 'N']
+# # print(nouns)
+# nouns = []
+# for w in all_nouns: 
+#     if w.lower() not in stop_words: 
+#         nouns.append(w) 
+# print(', '.join(nouns))
+def myFun(arg1, **kwargs):  
+    print(kwargs.get('title').title)
+    # for key, value in kwargs.items(): 
+    #     print ((key)) 
+  
+# Driver code 
+myFun("Hi", title=f.entries[2]) 

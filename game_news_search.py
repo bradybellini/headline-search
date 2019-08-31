@@ -7,16 +7,11 @@ from nltk.corpus import stopwords
 from feeds import game_feeds
 
 
-
-
-
-
 def get_entry():
     for feed in game_feeds:
         f = feedparser.parse(feed)
         for entry in f.entries:
             mandatory_elements(entry)
-
 
 
 def mandatory_elements(entry):
@@ -40,13 +35,6 @@ def mandatory_elements(entry):
             pass
 
 
-# def parse_entry(entry, guid):
-#     insert_data(author=entry.author if 'author' in entry else 'No author provided')
-#     title = entry.title
-#     link = entry.link
-#     insert_data(title=title, link=link, guid=guid)
-
-
 def date_format(entry):
     try:
         published = time.mktime(entry.published_parsed)
@@ -54,6 +42,7 @@ def date_format(entry):
     except:
         print('error in date_format')
         pass
+
 
 def get_tags(entry):
     try:
@@ -71,7 +60,6 @@ def get_tags(entry):
         print('error in tags')
     return tags
 
-# title, link, author, **tags, date_published, date_added, guid
 
 def insert_data(**kwargs):
     author = kwargs.get('entry').author if 'author' in kwargs.get('entry') else 'No author provided'

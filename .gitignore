@@ -1,7 +1,8 @@
-.vscode
-.db
-.sqlite
+*.vscode
+*.db
+*.sqlite
 testing.py
+feeds.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -84,7 +84,7 @@ def insert_data(entry, guid):
 if __name__ == "__main__":
     get_entry()
 
-#TODO check if link to article works if not try guid if not dont put it in database
+#TODO check if link to article works if not try guid if not dont put it in database or delete
 #clean up tags when making them
 #add all if else, try expect to handle all errors and make all data uniform so it is easier to parse in database
 #check for etag and modified for rss feeds, if the feed has it, to limit bandwidth and ping to rss feed

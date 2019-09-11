@@ -12,7 +12,6 @@ def get_entry():
         f = json.load(read_file)
     for feed in f['gaming']:
         f = feedparser.parse(feed['feed'])
-        print(feed['feed'])
         for entry in f.entries:
             mandatory_elements(entry)
 
@@ -50,6 +49,8 @@ def get_tags(entry):
             if w.lower() not in stop_words: 
                 tags.append(w) 
         tags = ', '.join(tags)
+        # tags = [x for x in tags_dirty if x is not "'" or "]" or "["] 
+        # print('tags')    
         return tags
 
 
@@ -85,14 +86,10 @@ if __name__ == "__main__":
     get_entry()
 
 #TODO check if link to article works if not try guid if not dont put it in database or delete
-#clean up tags when making them
-#add all if else, try expect to handle all errors and make all data uniform so it is easier to parse in database
-#check for etag and modified for rss feeds, if the feed has it, to limit bandwidth and ping to rss feed
+#In-progress - clean up tags when making them
+#In-progess - check for etag and modified for rss feeds, if the feed has it, to limit bandwidth and ping to rss feed
 #make functions above into class
 #count occurences of certain words in a period of time to see what is trending. Might need to use nltk or something to get nound and subjects in headlines
 #graph occurence vs time and take derivative to help gauge trendyness
-#think about parsing summaries, descriptions for nouns for trending
-#add better search for discord bot
-#think about adding more tables for each category and test speeds for searching.
 #add source to result, i.e. kotaku.com is kotaku cnn.com is cnn
 

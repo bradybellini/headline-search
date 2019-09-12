@@ -4,7 +4,7 @@ import time
 import nltk
 import json
 from nltk.corpus import stopwords
-from feeds import game_feeds
+
 
 
 def get_entry():

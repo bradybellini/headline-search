@@ -50,7 +50,6 @@ def get_tags(entry):
                 tags.append(w) 
         tags = ', '.join(tags)
         # tags = [x for x in tags_dirty if x is not "'" or "]" or "["] 
-        # print('tags')    
         return tags
 
 

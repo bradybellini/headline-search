@@ -85,9 +85,6 @@ if __name__ == "__main__":
 
 #TODO check if link to article works if not try guid if not dont put it in database or delete
 #In-progress - clean up tags when making them
-#In-progess - check for etag and modified for rss feeds, if the feed has it, to limit bandwidth and ping to rss feed
 #make functions above into class
-#count occurences of certain words in a period of time to see what is trending. Might need to use nltk or something to get nound and subjects in headlines
-#graph occurence vs time and take derivative to help gauge trendyness
 #add source to result, i.e. kotaku.com is kotaku cnn.com is cnn
 

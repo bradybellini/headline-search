@@ -1,9 +1,5 @@
 import itertools
 
-<<<<<<< HEAD
-a = itertools.product([True,False], repeat=2)
-print(a)
-=======
 #check if match or etag for feed or pass if neither
 #Curretly put on hold. Less than a third of the feeds have etag or last-modified built into feed. Need to check actualy cache headers
 #for a better solution. I wont be updating feeds enough for this to be too big of a problem, but the bandwidth could add up in the long run.
@@ -24,4 +20,3 @@ def if_change():
 
 
 if_change()
->>>>>>> 15a2e9956792782533145975338ff4fa314d0b4e

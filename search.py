@@ -2,7 +2,7 @@ import feedparser
 import sqlite3
 import datetime
 import time
-from feeds import all_feeds
+
 
 
 
